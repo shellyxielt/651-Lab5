@@ -1,6 +1,6 @@
-# Project 4
+# Project 5
 
-ENGO 651-Lab4
+ENGO 651-Lab5
 
 The project mainly focuses on designing a map of Calgary Schools and Calgary Health Clinics and Hospitals. 
 
