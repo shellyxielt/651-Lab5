@@ -45,13 +45,13 @@ map.on('draw:created', function(e) {
   editableLayers.addLayer(layer);
 });
 
-document.getElementById('lineSimplify').addEventListener("click", function() {
+document.getElementById('Simplify').addEventListener("click", function() {
   simplified = turf.simplify(polyline, {tolerance: 0.01, highQuality: false});
   console.log(simplified);
   processed.addData(simplified);
 });
 
-document.getElementById('lineClear').addEventListener("click", function() {
+document.getElementById('Remove').addEventListener("click", function() {
   processed.clearLayers();
   editableLayers.clearLayers();
 });
